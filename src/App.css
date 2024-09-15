@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.container{
+  width:  1100px;
+  height: 670px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
+  background-color: gray;
+}
+
+.left-inner{
+  width:  500px;
+  height: 640px;
+  padding: 20px;
+  background-color: white;
+  
+}
+
+.right-inner{
+  width:  500px;
+  height: 640px;
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+}
+
+.queue-prio, .queue-1, .queue-2, .queue-3 {
+  border: 1px solid black;
+  position: relative;
+  font-size: 14px;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: green;
+  position: absolute;
+  left: 0;
+}
+
+.random-number {
+  height: 50px;
+  width: 100%;
+  border-color: black;
+  border-style: dashed;
+  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.random-number span {
+  margin-right: 10px;
+}
+
+h2{
+  color: black;
+}
